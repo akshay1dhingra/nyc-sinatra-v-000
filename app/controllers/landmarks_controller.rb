@@ -1,3 +1,8 @@
 class LandmarksController < ApplicationController
-  # add controller methods
+
+  get '/landmarks' do
+    @landmarks = Landmarks.all
+    @figures = Figures.all
+  end
+  
 end
