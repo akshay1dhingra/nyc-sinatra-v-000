@@ -4,5 +4,5 @@ class LandmarksController < ApplicationController
     @landmarks = Landmarks.all
     @figures = Figures.all
   end
-  
+
 end
